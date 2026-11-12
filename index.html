@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary":"#003526","on-primary":"#ffffff","error":"#ba1a1a","secondary-container":"#fdd275","secondary-fixed":"#ffdf9e","secondary":"#795902","inverse-on-surface":"#f3f0f0","tertiary-fixed-dim":"#a9cfbe","on-primary-fixed":"#002116","primary-container":"#0f4d3a","primary-fixed-dim":"#98d3b9","on-primary-container":"#83bda4","on-secondary-fixed":"#261a00","on-primary-fixed-variant":"#14503d","surface-bright":"#fcf9f8","surface-variant":"#e4e2e1","on-tertiary":"#ffffff","on-surface-variant":"#404944","on-error":"#ffffff","surface-container-highest":"#e4e2e1","on-secondary":"#ffffff","on-error-container":"#93000a","surface-tint":"#306854","tertiary":"#103328","outline":"#707974","on-secondary-container":"#775800","error-container":"#ffdad6","tertiary-container":"#284a3e","surface-container-lowest":"#ffffff","on-surface":"#1b1c1c","surface-container-high":"#eae7e7","surface-container-low":"#f6f3f2","surface":"#fcf9f8","on-secondary-fixed-variant":"#5b4300","surface-container":"#f0eded","on-background":"#1b1c1c","on-tertiary-fixed-variant":"#2b4d41","outline-variant":"#bfc9c2","on-tertiary-container":"#94b9a9","surface-dim":"#dcd9d9","tertiary-fixed":"#c5ebda","on-tertiary-fixed":"#002117","primary-fixed":"#b4efd5","inverse-surface":"#303030","inverse-primary":"#98d3b9","background":"#fcf9f8","secondary-fixed-dim":"#ebc166"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-md":"3rem","margin":"1.5rem","space-sm":"0.5rem","space-xs":"0.25rem","space-2xl":"5rem","space-lg":"1.75rem","margin-lg":"5rem","space-md":"1rem","space-xl":"3rem","gutter-lg":"2.5rem","gutter":"1.5rem"},fontFamily:{"headline-md":["Playfair Display"],"display-hero-mobile":["Playfair Display"],"label-meta":["Plus Jakarta Sans"],"label-caps":["Plus Jakarta Sans"],"label-price":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-hero":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"],"title-editorial":["Playfair Display"],"headline-sm":["Playfair Display"],"headline-lg":["Playfair Display"],"body-md":["Plus Jakarta Sans"]},fontSize:{"headline-md":["32px",{lineHeight:"40px",letterSpacing:"0em",fontWeight:"500"}],"display-hero-mobile":["38px",{lineHeight:"46px",letterSpacing:"-0.01em",fontWeight:"400"}],"label-meta":["12px",{lineHeight:"16px",letterSpacing:"0.08em",fontWeight:"500"}],"label-caps":["11px",{lineHeight:"16px",letterSpacing:"0.15em",fontWeight:"600"}],"label-price":["14px",{lineHeight:"20px",letterSpacing:"0.05em",fontWeight:"600"}],"body-lg":["18px",{lineHeight:"30px",letterSpacing:"0.01em",fontWeight:"300"}],"display-hero":["64px",{lineHeight:"72px",letterSpacing:"-0.02em",fontWeight:"400"}],"body-sm":["13px",{lineHeight:"20px",letterSpacing:"0.02em",fontWeight:"400"}],"headline-lg-mobile":["28px",{lineHeight:"36px",letterSpacing:"0em",fontWeight:"400"}],"title-editorial":["20px",{lineHeight:"28px",letterSpacing:"0.02em",fontWeight:"400"}],"headline-sm":["24px",{lineHeight:"32px",letterSpacing:"0.01em",fontWeight:"500"}],"headline-lg":["44px",{lineHeight:"52px",letterSpacing:"-0.01em",fontWeight:"400"}],"body-md":["15px",{lineHeight:"24px",letterSpacing:"0.01em",fontWeight:"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><aside class="fixed top-0 w-full z-50 bg-surface-container-low/95 backdrop-blur-md"><div class="w-full max-w-7xl mx-auto px-margin flex items-center justify-between h-9 text-on-surface-variant"><div class="hidden md:flex items-center gap-space-sm"><span class="font-label-meta text-label-meta tracking-wider uppercase text-secondary">L'Atelier Lahore</span><span class="text-outline-variant">|</span><span class="font-label-meta text-label-meta text-on-surface-variant">Complimentary Worldwide Shipping on Orders over Rs. 150,000</span></div><div class="flex-1 text-center md:hidden"><span class="font-label-meta text-label-meta tracking-wide text-secondary">Appointments Open: Lahore &amp; Karachi</span></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs font-label-caps text-label-caps uppercase"><button class="text-on-surface hover:text-secondary transition-colors">اردو</button><span class="text-outline-variant">/</span><button class="text-secondary hover:text-on-surface transition-colors font-semibold">EN</button></div><span class="text-outline-variant">|</span><div class="flex items-center gap-space-xs font-label-caps text-label-caps uppercase text-on-surface-variant"><select class="bg-transparent text-on-surface-variant font-label-caps text-label-caps cursor-pointer focus:outline-none hover:text-on-surface"><option value="PKR">PKR (Rs.)</option><option value="USD">USD ($)</option><option value="GBP">GBP (£)</option><option value="AED">AED (د.إ)</option></select></div></div></div></aside><header class="fixed top-9 w-full z-40 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-20 max-w-7xl mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm group" data-path="home" href="index.html"><img alt="Noor Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAztZvUx2iz_mkgSiw3gqpzWN9ANbiJ1swiUc6sU9Jt4ITE0j0m7lPZ4H4a1iScuYcYfCdCbgG3wOt8K4u3S5TeQglPZo_7IoSunZelpBhheiN6wddZK43w7Uj631Kg2jNxGMD2fUdThWscYJCMzHB3MT4MNYZTAmqnv6_nw1HNHO8_-BIpHDEyreTIdO7gBctohZPlJzICLxpDlCNj-AtEB96IzWoGTuO23EAaZgblOw"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-primary uppercase">Noor</span><span class="font-label-caps text-label-caps tracking-widest text-secondary uppercase">Haute Couture</span></div></a></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-semibold"><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" data-path="new-arrivals" href="collection.html">New Arrivals</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" data-path="bridal-couture" href="collection.html">Bridal</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" data-path="formal-wear" href="collection.html">Formal</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" data-path="luxury-pret" href="collection.html">Pret</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" data-path="curated-collections" href="collection.html">Collections</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" data-path="atelier-heritage" href="#">Atelier &amp; About</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-primary transition-colors py-space-xs" data-path="bespoke-consultation" href="consultation.html">Bespoke Consultation</a></nav><div class="flex items-center gap-space-md"><button aria-label="Search Archive" class="p-space-xs text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-title-editorial">search</span></button><a class="relative p-space-xs text-on-surface-variant hover:text-primary transition-colors" data-path="client-wishlist" href="#"><span class="material-symbols-outlined text-title-editorial">favorite</span><span class="absolute top-0 right-0 w-4 h-4 bg-secondary-container text-on-secondary-container rounded-full font-label-caps text-label-caps flex items-center justify-center font-bold">2</span></a><button aria-label="Trousseau Bag" class="relative p-space-xs text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-title-editorial">shopping_bag</span><span class="absolute top-0 right-0 w-4 h-4 bg-primary text-on-primary rounded-full font-label-caps text-label-caps flex items-center justify-center font-bold">0</span></button><a class="flex items-center pl-space-xs" data-path="client-account" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-secondary/40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPa9X9v115KakhvjYxEk-00O6FN6Vd12QQr6rIJD8sekhsfR2DA5h7KPbt15dBJyvL5oTXLWqJcfIYAXqeLjX_wn-KmRnCJBe5a29qSL6DJkjlGcAkEmADtsSQ_-AYlmF-8roHKeEb9QPADTpfvGk0dv087MtprPEjAxXpVNWwuZwT-sIz6kAHBSCLPONFdxhGfKJ7rd8fHRwWepL_fxgnzPkhRk_CZ4U4g6yJwBKl"/></a></div></div></header><main class="w-full pt-28 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- 1. Hero Section -->
+<section class="relative w-full -mt-28 min-h-[942px] flex items-end justify-start overflow-hidden bg-primary">
+<!-- Cinematic Editorial Background -->
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105" data-alt="Editorial high-fashion campaign photo of a South Asian bride dressed in a majestic deep emerald green and antique gold zardozi embroidered bridal lehenga. She stands gracefully in a Mughal pavilion with soft dramatic morning light, sheer silk organza veil cascading, intricate gold dabka, pearls, and tilla threadwork shimmering. Ultra-refined Pakistani couture aesthetic, warm ivory and regal forest tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDP8TEY6qbfg-f8hoeHCUwN-9P-t0NIuU21x1ZZVcO-sOcKJjvP5zgRGVbV4HCp9D4xjIq2zOLouF9M4FAuoqhYBa4Zts8K-WsWIkhOOnRS06_FKub7b8u5v5_4GBf3ONOyjzjBG5zQS2XlG5YWlnzQsOtJc5MbJKZ_n3xnohfNr1VeaWHkxqmc5v4hTYTAn4Rp300U4aGhO14VEVac-UmdwgyADvaUDUDLuXa9o1qL')">
+</div>
+<!-- Gradient Scrim for Contrast & Sophistication -->
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/45 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/70 via-transparent to-transparent"></div>
+<!-- Hero Content Overlap -->
+<div class="relative z-10 w-full max-w-7xl mx-auto px-margin pt-44 pb-space-2xl flex flex-col md:flex-row items-end justify-between gap-space-xl">
+<div class="max-w-2xl space-y-space-md text-surface-bright">
+<div class="flex items-center gap-space-xs text-secondary-fixed">
+<span class="font-label-caps text-label-caps uppercase tracking-widest">Autumn / Winter 2025 Edition</span>
+<span class="inline-block w-8 h-[1px] bg-secondary-fixed"></span>
+<span class="font-label-meta text-label-meta uppercase tracking-wider text-surface-variant">L'Atelier Lahore</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg md:text-display-hero text-surface-bright leading-tight tracking-tight">
+          Where Tradition <br/>
+<span class="italic font-normal font-title-editorial text-secondary-fixed">Meets Elegance</span>
+</h1>
+<p class="font-body-lg text-body-lg text-surface-variant/90 max-w-xl font-light">
+          An ode to royal imperial Mughal ateliers. Centuries-old zardozi, precious dabka bullion, and pure silk weaves curated for the modern global bride.
+        </p>
+<div class="pt-space-sm flex flex-wrap items-center gap-space-md">
+<a class="bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-container transition-all px-space-lg py-space-sm font-label-caps text-label-caps uppercase tracking-widest shadow-md" href="collection.html">
+            Shop the Collection
+          </a>
+<a class="bg-surface/10 hover:bg-surface/20 text-surface-bright backdrop-blur-md transition-all px-space-lg py-space-sm font-label-caps text-label-caps uppercase tracking-widest" href="collection.html">
+            Explore Bridal Trousseau
+          </a>
+</div>
+</div>
+<!-- Live Atelier Floating Badge & Scroll Cue -->
+<div class="hidden lg:flex flex-col items-end gap-space-lg text-right">
+<div class="bg-surface-container-lowest/15 backdrop-blur-md p-space-md max-w-xs text-left text-surface-bright shadow-xl">
+<div class="flex items-center gap-space-xs text-secondary-fixed mb-space-xs">
+<span class="material-symbols-outlined text-body-sm">diamond</span>
+<span class="font-label-caps text-label-caps uppercase tracking-wider">Bespoke Production</span>
+</div>
+<p class="font-body-sm text-body-sm text-surface-variant/90">
+            Over 420 master karigar hours dedicated per bridal creation. Winter wedding slots now open.
+          </p>
+</div>
+<div class="flex items-center gap-space-xs text-surface-variant/80 font-label-meta text-label-meta tracking-widest uppercase">
+<span>Scroll to Discover</span>
+<span class="material-symbols-outlined text-secondary-fixed animate-bounce">arrow_downward</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. Category Tiles Showcase -->
+<section class="w-full max-w-7xl mx-auto px-margin py-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-sm">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">The Noor Taxonomy</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight mt-space-xs">Curated Silhouettes</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+        Explore couture meticulously draped across pure raw silks, delicate nets, and opulent hand-spun velvets.
+      </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Category 1: Bridal Couture -->
+<a class="group relative overflow-hidden bg-surface-container-high flex flex-col justify-end aspect-[3/4] shadow-sm hover:shadow-xl transition-all duration-500" href="collection.html">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Editorial portrait of a Pakistani bride wearing a heavy scarlet red farshi gharara encrusted with antique gold zardozi, pearls, kora dabka, and emerald drop stones. Shot against classic architectural arches." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDeG5Hgzji2gbKZHsnHE7dRl9vDKq_CrgS8xwKNG1yXItu274PdxAjP_8W5P_l25kSWdv1NK3lQrm30C9gr8HW_-s2LwQD30WiJGatqYq6CH-1OfvpuO7WFN4c9kzbzhLnufqwtpygL7vfF2-1jlvkKGoqXO4RG70bN6wvz4GjWPQz-ll9pKGQ2GKN1qoCCfhovfT9MLgg-0XzmyB2Q9hgjMXuSqzfNLvIiWAFgce6c')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="relative z-10 p-space-md space-y-space-xs text-surface-bright">
+<span class="font-label-meta text-label-meta text-secondary-fixed uppercase tracking-wider">Royal Trousseau</span>
+<h3 class="font-headline-sm text-headline-sm text-surface-bright">Bridal Couture</h3>
+<p class="font-body-sm text-body-sm text-surface-variant/80 line-clamp-2">
+            Royal dabka, antique zardozi lehengas, and architectural farshi ghararas.
+          </p>
+<div class="pt-space-xs flex items-center gap-space-xs font-label-caps text-label-caps uppercase tracking-widest text-secondary-fixed group-hover:translate-x-1 transition-transform">
+<span>Explore Line</span>
+<span class="material-symbols-outlined text-body-sm">arrow_forward</span>
+</div>
+</div>
+</a>
+<!-- Category 2: Formal Wear -->
+<a class="group relative overflow-hidden bg-surface-container-high flex flex-col justify-end aspect-[3/4] shadow-sm hover:shadow-xl transition-all duration-500" href="#">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Pakistani formal fashion editorial featuring a model in a deep sapphire velvet peshwas adorned with intricate resham and gota patti threadwork, matching hand-loomed Banarasi dupatta." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCqwkUQ9w293bWX24ugW6StdAjYMhVtcRiPhHeJZ4J2eVlSt0mKtmns6ayQ5fAtVdsAes6xmEhs-cq-3W6PlRodk4eM13NmNS6xgI8WZoTXS_pkMpexvtRWAZIo7ZU0prB2ywS8X10mvIpqbdHE5U8DP4lFVb82bntWLm7Ldmef_vHlUzt3E21c3qAE9bQjXPuJstnn8EqWRP-v2eFMHU-mXrl1BNmPVlWxIttLlaqM')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="relative z-10 p-space-md space-y-space-xs text-surface-bright">
+<span class="font-label-meta text-label-meta text-secondary-fixed uppercase tracking-wider">Evening Glamour</span>
+<h3 class="font-headline-sm text-headline-sm text-surface-bright">Formal Wear</h3>
+<p class="font-body-sm text-body-sm text-surface-variant/80 line-clamp-2">
+            Heavily embellished floor-sweeping peshwas, pure raw silk kurtas, and artisanal shawls.
+          </p>
+<div class="pt-space-xs flex items-center gap-space-xs font-label-caps text-label-caps uppercase tracking-widest text-secondary-fixed group-hover:translate-x-1 transition-transform">
+<span>Explore Line</span>
+<span class="material-symbols-outlined text-body-sm">arrow_forward</span>
+</div>
+</div>
+</a>
+<!-- Category 3: Luxury Pret -->
+<a class="group relative overflow-hidden bg-surface-container-high flex flex-col justify-end aspect-[3/4] shadow-sm hover:shadow-xl transition-all duration-500" href="#">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Editorial lookbook image of an ivory raw silk pret kurta set with delicate thread embroidery, modern tailored culottes, and a tissue silk dupatta draped across shoulders." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBtZzLaZ1gbDM8EffZPo3xL7T0HN9bcXfqBLDxIK7_m-Y8YOwwcD_SYoKk07oaAiaRDwgUFXB2-ShL8-IdWHPWYICx6AwnMp-BIw_bbeaDLZ3XKtoF4SWFl4lzHN_v-vQjst4wGdqLasIalao-TEkQQoUL_A69pwsAz0EPsGWnAkTKY_LdE3CzdgHNGNPdxW5M3tEtBdYoEc9jZCywbSf4HHnzikmNZdLfWSyNB3OKi')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="relative z-10 p-space-md space-y-space-xs text-surface-bright">
+<span class="font-label-meta text-label-meta text-secondary-fixed uppercase tracking-wider">Ready-to-Wear</span>
+<h3 class="font-headline-sm text-headline-sm text-surface-bright">Luxury Pret</h3>
+<p class="font-body-sm text-body-sm text-surface-variant/80 line-clamp-2">
+            Contemporary cuts, delicate organza wraps, and understated semi-formal tunics.
+          </p>
+<div class="pt-space-xs flex items-center gap-space-xs font-label-caps text-label-caps uppercase tracking-widest text-secondary-fixed group-hover:translate-x-1 transition-transform">
+<span>Explore Line</span>
+<span class="material-symbols-outlined text-body-sm">arrow_forward</span>
+</div>
+</div>
+</a>
+<!-- Category 4: Festive Chiffon -->
+<a class="group relative overflow-hidden bg-surface-container-high flex flex-col justify-end aspect-[3/4] shadow-sm hover:shadow-xl transition-all duration-500" href="#">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Close-up fashion photography of a model in a pistachio green festive chiffon outfit with fine mirrorwork, resham floral jaal, and sequined borders catching warm afternoon sunlight." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDVmTm7LF3CIFzAdUkgGmXsCwq13ULZ_xo-OWjtGbHlGBvrh7VqW9tfpb2B8RvSkI-cnRnMF5YLyukeGv7OGTu2j_e88tXfMAyUZPj7yHSduJBL-Sisuun0nLyIGz0qIIlJx0dCKh9fQium8mYZ79eNgZ9dWZn9u328x98RwRbLdAQFbG4qHP7ZLNEfno05HT08JJ-kpcNqTCh4T-bOcw890Bpwfovi5rDSWhYLWQPS')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="relative z-10 p-space-md space-y-space-xs text-surface-bright">
+<span class="font-label-meta text-label-meta text-secondary-fixed uppercase tracking-wider">Draped Grace</span>
+<h3 class="font-headline-sm text-headline-sm text-surface-bright">Festive Chiffon</h3>
+<p class="font-body-sm text-body-sm text-surface-variant/80 line-clamp-2">
+            Ethereal hand-cut mirror work, foil block accents, and diaphanous evening sarees.
+          </p>
+<div class="pt-space-xs flex items-center gap-space-xs font-label-caps text-label-caps uppercase tracking-widest text-secondary-fixed group-hover:translate-x-1 transition-transform">
+<span>Explore Line</span>
+<span class="material-symbols-outlined text-body-sm">arrow_forward</span>
+</div>
+</div>
+</a>
+</div>
+</section>
+<!-- 3. New Arrivals Carousel / Editorial Grid -->
+<section class="w-full bg-surface-container-low py-space-2xl">
+<div class="max-w-7xl mx-auto px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="font-label-caps text-label-caps uppercase tracking-widest">Fresh From The Karkhana</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">New Arrivals '25</h2>
+</div>
+<!-- Filter tabs -->
+<div class="flex items-center gap-space-xs flex-wrap">
+<button class="bg-primary text-on-primary px-space-md py-space-xs font-label-caps text-label-caps uppercase tracking-wider shadow-sm">All Pieces</button>
+<button class="bg-surface hover:bg-surface-variant text-on-surface-variant px-space-md py-space-xs font-label-caps text-label-caps uppercase tracking-wider transition-colors">Bridal</button>
+<button class="bg-surface hover:bg-surface-variant text-on-surface-variant px-space-md py-space-xs font-label-caps text-label-caps uppercase tracking-wider transition-colors">Formals</button>
+<button class="bg-surface hover:bg-surface-variant text-on-surface-variant px-space-md py-space-xs font-label-caps text-label-caps uppercase tracking-wider transition-colors">Unstitched Luxury</button>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Garment 1 -->
+<div class="group flex flex-col bg-surface overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="relative aspect-[3/4] overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Editorial lookbook image of an imperial emerald velvet peshwas ensemble with intricate zardozi, kora dabka gold embroidery, paired with a crinkled tissue dupatta. Front shot." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCSI1wCefP1bOUECJ6JLuD0DVrs3XYpIFbPNo3jRJkSFhPH04CRsNpGmP1IEjMnuILo7T6ihRDU-W_NSvd2tpQxYFLy94P0kmFmYIlMYFrXZOnzYQfiTrlNLHvaGPf2sDH1-WFGyLPwdqOwODv_BwOaQvWn47jCQX-DjptznlRzwn1eiDBM-mqKPTrpV4xetiNmht9Yy6V35zM_uxgDn2wddEomwPp04njY5N9srdHE')">
+</div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="bg-primary/90 backdrop-blur-sm text-surface-bright font-label-caps text-label-caps uppercase px-space-xs py-0.5 tracking-wider">
+                Handcrafted Zardozi
+              </span>
+</div>
+<button class="absolute top-space-sm right-space-sm w-8 h-8 rounded-full bg-surface/80 backdrop-blur-sm text-secondary hover:bg-surface flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-body-md">favorite</span>
+</button>
+<!-- Quick Bespoke Overlay on Hover -->
+<div class="absolute inset-x-0 bottom-0 p-space-sm bg-surface/90 backdrop-blur-md translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-between gap-space-xs">
+<a class="flex-1 bg-primary text-on-primary py-space-xs text-center font-label-caps text-label-caps uppercase tracking-wider hover:bg-primary-container transition-colors" href="#">
+                Quick View
+              </a>
+<a class="p-space-xs bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-container transition-colors flex items-center justify-center" href="https://wa.me/" title="Inquire on WhatsApp">
+<span class="material-symbols-outlined text-body-md">forum</span>
+</a>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between space-y-space-sm">
+<div>
+<span class="font-label-meta text-label-meta text-outline uppercase tracking-wider">Pure Raw Silk 80g</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mt-0.5">
+                Nur-e-Jahan Peshwas
+              </h3>
+</div>
+<div class="flex items-center justify-between pt-space-xs border-t border-surface-variant">
+<div>
+<span class="font-label-price text-label-price text-primary">Rs. 240,000</span>
+<span class="block font-label-meta text-label-meta text-outline">Made to Measure</span>
+</div>
+<span class="text-secondary font-label-caps text-label-caps uppercase tracking-widest">4-6 Wks</span>
+</div>
+</div>
+</div>
+<!-- Garment 2 -->
+<div class="group flex flex-col bg-surface overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="relative aspect-[3/4] overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Editorial lookbook photo of a champagne ivory bridal lehenga with delicate pearl beading, Swarovski crystals, gold tilla handwork on sheer net fabric." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAUmnjRqHaORFAhVMLU2KztLW_iql1TVEhJ0Rdzg_g9sTqDgldaHF_IzODW-HU0sa09lXVpfMHTHGiiHaAmO3I1m96jDS4rFd2t9q_UIV_R3DJml1OnGNeyrYPE1d7hhCpCuFfFF7nSiDyG2ooj-Pdm1ZUZOVZV0YlF3N5DQsNFPWvp-tT4yGGwDNNxBDpw10IepJ6-3DthEF-IpsvCU5aa5YvkdPpOQaZFh4u67P7t')">
+</div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="bg-secondary text-on-secondary font-label-caps text-label-caps uppercase px-space-xs py-0.5 tracking-wider">
+                Limited Edition
+              </span>
+</div>
+<button class="absolute top-space-sm right-space-sm w-8 h-8 rounded-full bg-surface/80 backdrop-blur-sm text-secondary hover:bg-surface flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-body-md">favorite</span>
+</button>
+<div class="absolute inset-x-0 bottom-0 p-space-sm bg-surface/90 backdrop-blur-md translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-between gap-space-xs">
+<a class="flex-1 bg-primary text-on-primary py-space-xs text-center font-label-caps text-label-caps uppercase tracking-wider hover:bg-primary-container transition-colors" href="#">
+                Quick View
+              </a>
+<a class="p-space-xs bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-container transition-colors flex items-center justify-center" href="https://wa.me/" title="Inquire on WhatsApp">
+<span class="material-symbols-outlined text-body-md">forum</span>
+</a>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between space-y-space-sm">
+<div>
+<span class="font-label-meta text-label-meta text-outline uppercase tracking-wider">French Net &amp; Organza</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mt-0.5">
+                Mehtab Bridal Lehenga
+              </h3>
+</div>
+<div class="flex items-center justify-between pt-space-xs border-t border-surface-variant">
+<div>
+<span class="font-label-price text-label-price text-primary">Rs. 320,000</span>
+<span class="block font-label-meta text-label-meta text-outline">Bespoke Couture</span>
+</div>
+<span class="text-secondary font-label-caps text-label-caps uppercase tracking-widest">8-10 Wks</span>
+</div>
+</div>
+</div>
+<!-- Garment 3 -->
+<div class="group flex flex-col bg-surface overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="relative aspect-[3/4] overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Fashion studio portrait of a garnet red raw silk straight long shirt with hand-appliqued dabka border, scalloped organza dupatta, and crushed raw silk trousers." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAUzgVJYKeEpREc64enZ1woF2xUpFjoDzOLIW4Cs3dWzGgfYeRF24GlZHInPH7j26dD4yATXDsJ6vIWfgMNI3QEs8B3jni_LMB9181N5pUH_gHPOUBLzTvWZESLeNEILwKD3lAkZUlG__cqFTtZwoixN28qh6_hzk7O8GaEvEVrjr_r9AkuNK75FcEkBqb_zowpzWZrXZG9WJ6grz3bMe4YSCdBDf3LkOoQMN1acSg0')">
+</div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="bg-primary-container text-on-primary font-label-caps text-label-caps uppercase px-space-xs py-0.5 tracking-wider">
+                Pure Raw Silk
+              </span>
+</div>
+<button class="absolute top-space-sm right-space-sm w-8 h-8 rounded-full bg-surface/80 backdrop-blur-sm text-secondary hover:bg-surface flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-body-md">favorite</span>
+</button>
+<div class="absolute inset-x-0 bottom-0 p-space-sm bg-surface/90 backdrop-blur-md translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-between gap-space-xs">
+<a class="flex-1 bg-primary text-on-primary py-space-xs text-center font-label-caps text-label-caps uppercase tracking-wider hover:bg-primary-container transition-colors" href="#">
+                Quick View
+              </a>
+<a class="p-space-xs bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-container transition-colors flex items-center justify-center" href="https://wa.me/" title="Inquire on WhatsApp">
+<span class="material-symbols-outlined text-body-md">forum</span>
+</a>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between space-y-space-sm">
+<div>
+<span class="font-label-meta text-label-meta text-outline uppercase tracking-wider">Rawaan Raw Silk</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mt-0.5">
+                Surayya Kurta Set
+              </h3>
+</div>
+<div class="flex items-center justify-between pt-space-xs border-t border-surface-variant">
+<div>
+<span class="font-label-price text-label-price text-primary">Rs. 185,000</span>
+<span class="block font-label-meta text-label-meta text-outline">Custom Stitched</span>
+</div>
+<span class="text-secondary font-label-caps text-label-caps uppercase tracking-widest">3-4 Wks</span>
+</div>
+</div>
+</div>
+<!-- Garment 4 -->
+<div class="group flex flex-col bg-surface overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="relative aspect-[3/4] overflow-hidden bg-surface-container">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Modern high-fashion editorial of an antique gold tissue organza tunic adorned with fine pita and resham thread embroidery, paired with cigarette pants." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDz7edHIgBd6vYpKYOdv01HjG-OQRaf9iixnjJIHIFw4hoRAfbnBmEGVa1FYjZoiKoNTI62bCi-UyaJpGS0UUrLIjICqRGiJb1ijHUuM0xpT8foQLLjhXTObQ086gK6R-qZZdBtgTmyoe78cRmUZtdztLtFXmkV6vHGUFC5nk99KAyEzCFH-V4loo0_A50FFky9-ktG-lOrZWwIlipEgPvm3z2n_xjssMVHB7cOebnF')">
+</div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="bg-surface-variant text-on-surface-variant font-label-caps text-label-caps uppercase px-space-xs py-0.5 tracking-wider">
+                Bespoke Order
+              </span>
+</div>
+<button class="absolute top-space-sm right-space-sm w-8 h-8 rounded-full bg-surface/80 backdrop-blur-sm text-secondary hover:bg-surface flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-body-md">favorite</span>
+</button>
+<div class="absolute inset-x-0 bottom-0 p-space-sm bg-surface/90 backdrop-blur-md translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-between gap-space-xs">
+<a class="flex-1 bg-primary text-on-primary py-space-xs text-center font-label-caps text-label-caps uppercase tracking-wider hover:bg-primary-container transition-colors" href="#">
+                Quick View
+              </a>
+<a class="p-space-xs bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-container transition-colors flex items-center justify-center" href="https://wa.me/" title="Inquire on WhatsApp">
+<span class="material-symbols-outlined text-body-md">forum</span>
+</a>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between space-y-space-sm">
+<div>
+<span class="font-label-meta text-label-meta text-outline uppercase tracking-wider">Tissue Silk Weave</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mt-0.5">
+                Zareen Organza Tunic
+              </h3>
+</div>
+<div class="flex items-center justify-between pt-space-xs border-t border-surface-variant">
+<div>
+<span class="font-label-price text-label-price text-primary">Rs. 95,000</span>
+<span class="block font-label-meta text-label-meta text-outline">Ready to Ship</span>
+</div>
+<span class="text-secondary font-label-caps text-label-caps uppercase tracking-widest">In Stock</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Featured Collection Split Banner: The Artisan Narrative -->
+<section class="w-full bg-primary text-on-primary overflow-hidden">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 min-h-[620px]">
+<!-- Left Editorial Image: Atelier Craft Close-up -->
+<div class="relative lg:col-span-6 min-h-[420px] lg:min-h-full overflow-hidden bg-primary-container">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 hover:scale-105" data-alt="Extreme macro close-up of a master artisan's hands embroidering real antique gold zardozi bullion and metallic tilla thread onto deep bottle green velvet fabric on a wooden adda frame in Lahore. Natural side lighting emphasizing rich textile texture." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCQXztcch_da7K4aJ95mHxfBvwj4RXTDzLU_4TvtTApaGG4nAGEiestIJ4O0zcus1WCs1w5GUgcMJ5g7tLfiOjxLGWGhjyWZMKO8zj_H4WIj9eU0KpoORI-Zv418LbjK-nGftX2PQl9Dv2nYyosPMjQmk06-t6h-PTvFdr_mqdqABOG4UVyvuL8Z6fByCW98PyjtLUQsD3ijSTWrdShAd4CuAbpqwMTiZLgr32RhfCM')">
+</div>
+<div class="absolute inset-0 bg-primary/20"></div>
+<div class="absolute bottom-space-md left-space-md bg-surface-container-lowest/20 backdrop-blur-md p-space-sm max-w-xs">
+<p class="font-label-meta text-label-meta tracking-wider uppercase text-secondary-fixed">Karkhana No. 4, Walled City, Lahore</p>
+<p class="font-body-sm text-body-sm text-surface-bright/90 mt-0.5">Master Craftsman Muhammad Rafiq, 42 years of imperial bullion embroidery.</p>
+</div>
+</div>
+<!-- Right Editorial Story -->
+<div class="lg:col-span-6 p-space-xl lg:p-space-2xl flex flex-col justify-center space-y-space-md">
+<div class="flex items-center gap-space-xs text-secondary-fixed">
+<span class="font-label-caps text-label-caps uppercase tracking-widest">Living Heritage Archive</span>
+<span class="w-8 h-[1px] bg-secondary-fixed"></span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-surface-bright tracking-tight">
+          Revival of Lahore's <br/>
+<span class="italic font-title-editorial text-secondary-fixed">Royal Karkhanas</span>
+</h2>
+<p class="font-body-md text-body-md text-surface-variant/90 leading-relaxed font-light">
+          At Noor, each bridal creation represents an unbroken chain of generational mastery. From the drafting of the <em>naqsha</em> on tracing vellum to the hand-pinning onto traditional wooden <em>addas</em>, our garments do not rush the passage of time.
+        </p>
+<!-- Artisan Micro-Metrics -->
+<div class="grid grid-cols-3 gap-space-md pt-space-sm pb-space-sm border-y border-outline/30">
+<div>
+<span class="font-headline-md text-headline-md text-secondary-fixed block">400+</span>
+<span class="font-label-meta text-label-meta uppercase tracking-wider text-surface-variant">Hours of Handwork</span>
+</div>
+<div>
+<span class="font-headline-md text-headline-md text-secondary-fixed block">100%</span>
+<span class="font-label-meta text-label-meta uppercase tracking-wider text-surface-variant">Pure Chinese Silk</span>
+</div>
+<div>
+<span class="font-headline-md text-headline-md text-secondary-fixed block">24kt</span>
+<span class="font-label-meta text-label-meta uppercase tracking-wider text-surface-variant">Gold Plated Wire</span>
+</div>
+</div>
+<div class="pt-space-xs flex items-center gap-space-md">
+<a class="bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-container transition-all px-space-lg py-space-sm font-label-caps text-label-caps uppercase tracking-widest" href="#">
+            Read The Artisan Story
+          </a>
+<a class="text-surface-bright hover:text-secondary-fixed transition-colors font-label-caps text-label-caps uppercase tracking-wider flex items-center gap-space-xs" href="#">
+<span>Watch Documentary</span>
+<span class="material-symbols-outlined text-body-md">play_circle</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. 'Why Noor' Atelier Pillars -->
+<section class="w-full max-w-7xl mx-auto px-margin py-space-2xl">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">The Noor Standard</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight mt-space-xs">Atelier Commitments</h2>
+<div class="w-12 h-0.5 bg-secondary mx-auto mt-space-sm"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-lg">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-low p-space-xl flex flex-col items-center text-center space-y-space-md hover:bg-surface-container transition-colors duration-300">
+<div class="w-16 h-16 rounded-full bg-secondary-fixed/30 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-headline-sm">architecture</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Handcrafted Embroidery</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed font-light">
+          Centuries-old zardozi, precious dabka wire, resham thread needles, and real cut-dana beads stitched exclusively by Lahore's hereditary karigars.
+        </p>
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">Zero Machine Embellishment</span>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-low p-space-xl flex flex-col items-center text-center space-y-space-md hover:bg-surface-container transition-colors duration-300">
+<div class="w-16 h-16 rounded-full bg-secondary-fixed/30 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-headline-sm">dry_cleaning</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Pure Heirloom Fabrics</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed font-light">
+          We reject synthetic blends. Every drape employs tested 100% pure Chinese raw silk, Banarasi gold zari jacquard, and whisper-soft chiffon.
+        </p>
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">Certified Textile Integrity</span>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-low p-space-xl flex flex-col items-center text-center space-y-space-md hover:bg-surface-container transition-colors duration-300">
+<div class="w-16 h-16 rounded-full bg-secondary-fixed/30 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-headline-sm">video_call</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Global Bespoke Fittings</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed font-light">
+          Private one-on-one virtual consultations with our master pattern cutters (<em>Masterjis</em>), delivering glove-like fits for overseas brides.
+        </p>
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary">DHL Express Worldwide</span>
+</div>
+</div>
+</section>
+<!-- 6. Client Testimonials (High-Society Brides) -->
+<section class="w-full bg-surface-container py-space-2xl">
+<div class="max-w-7xl mx-auto px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-sm">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">The Noor Brides</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight mt-space-xs">Heirloom Diaries</h2>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="w-10 h-10 rounded-full bg-surface text-primary hover:bg-primary hover:text-on-primary transition-all flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-body-md">chevron_left</span>
+</button>
+<button class="w-10 h-10 rounded-full bg-surface text-primary hover:bg-primary hover:text-on-primary transition-all flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-body-md">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Testimonial 1: London Bride -->
+<div class="bg-surface p-space-lg flex flex-col justify-between shadow-sm">
+<div class="space-y-space-md">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+              "Ordering my Barat lehenga from London felt daunting, but Noor’s stylist coordinated every fitting over Zoom. When the velvet box arrived via DHL, the zardozi detail brought my grandmother to tears. It fit like a dream."
+            </p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center font-bold">
+              AM
+            </div>
+<div>
+<h4 class="font-label-price text-label-price text-primary">Ayla Malik-Rehman</h4>
+<p class="font-label-meta text-label-meta text-outline">Kensington, London • Barat Ensemble</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2: New York Bride -->
+<div class="bg-surface p-space-lg flex flex-col justify-between shadow-sm">
+<div class="space-y-space-md">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+              "The weight of the raw silk and the architectural flare of the gharara are unlike any commercial designer. You are truly wearing art. Their WhatsApp concierge was responsive despite the 9-hour timezone gap."
+            </p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-fixed-dim text-on-primary-fixed flex items-center justify-center font-bold">
+              ZS
+            </div>
+<div>
+<h4 class="font-label-price text-label-price text-primary">Dr. Zara Siddiqui</h4>
+<p class="font-label-meta text-label-meta text-outline">Manhattan, NY • Nikkah Peshwas</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3: Dubai Bride -->
+<div class="bg-surface p-space-lg flex flex-col justify-between shadow-sm">
+<div class="space-y-space-md">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-body-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed italic">
+              "We visited the Gulberg salon in Lahore for initial swatches and had the final ensemble delivered to Downtown Dubai within 7 weeks. Flawless craftsmanship, zero thread pull, and regal packaging."
+            </p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold">
+              FK
+            </div>
+<div>
+<h4 class="font-label-price text-label-price text-primary">Fatima Al-Kareem</h4>
+<p class="font-label-meta text-label-meta text-outline">Downtown Dubai • Walima Couture</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Instagram-Style Editorial Gallery Grid -->
+<section class="w-full max-w-7xl mx-auto px-margin py-space-2xl">
+<div class="flex flex-col sm:flex-row items-baseline justify-between mb-space-lg gap-space-xs">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-secondary">Social Monograph</span>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-tight">Seen in Noor</h2>
+</div>
+<a class="font-label-caps text-label-caps uppercase tracking-wider text-primary hover:text-secondary flex items-center gap-space-xs transition-colors" href="https://instagram.com">
+<span>@noorcoutureofficial</span>
+<span class="material-symbols-outlined text-body-sm">arrow_outward</span>
+</a>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-space-sm">
+<!-- Grid Item 1 -->
+<a class="group relative aspect-square overflow-hidden bg-surface-container" href="#">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Instagram editorial square photo of a bride twirling in a rust gold bridal gown under chandelier lighting in a Lahore heritage courtyard." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAdNPE2cro86k8iKt6Ahe4Hkz3nnfvD4bbApQ2r68JHBLd2mgFhtApYdCc7XiIxt_0s7pFa0JfRjZB2ie29p4xgHc2WDi0FAdXKQVm3e51XMZKOzjfbCw8HLA5xFlOjTaXbd8nzYFb1F3KRsJ_noP9KMcaFRjdrxDKyXiWqPsWJv8SQHPHVf4nduY_Q4zFlgObpXa7WUkRTPoQvaaNHPQlrDcjadgkrkGmr7wveaZc1')">
+</div>
+<div class="absolute inset-0 bg-primary/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface-bright">
+<span class="material-symbols-outlined text-headline-sm">photo_camera</span>
+</div>
+</a>
+<!-- Grid Item 2 -->
+<a class="group relative aspect-square overflow-hidden bg-surface-container" href="#">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Editorial close up detail shot of Pakistani jewelry, polki necklace, matching emerald earrings, and gold zardozi embroidered dupatta border pinned on hair." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBfj3ILdflWP3UAWHDSFQuvDVDay4G1auKHvBoCIfRjFkhLO39mL7WmWVwUa2q7akEM1iRB2ByCCYip7nEC1sho3-S75eyTuAYmePgsgs2JzZahtrlKbPZpUR4rzS-SbXDVbm8f0o4veXrpbgiLLJIgwbP1wtbe2JeXU6ociAtiwLEaHLwZ29W9jiIZOeqQHQMlqDh6hxsTZeFOP6dBBEfizw1lkeHE18yjaAv3eCs6')">
+</div>
+<div class="absolute inset-0 bg-primary/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface-bright">
+<span class="material-symbols-outlined text-headline-sm">photo_camera</span>
+</div>
+</a>
+<!-- Grid Item 3 -->
+<a class="group relative aspect-square overflow-hidden bg-surface-container" href="#">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Full runway photograph of a model walking fashion week in an avant-garde olive silk kaftan with hand-beaded cuffs and crystal tassel details." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC7coZ5zxXCL1OZFGlT1Q_eZN_AMmXI9w7ezHuayxyfvKfK7yeE2o1C0T0jmTirCwcvalj2aaG9JZSgvizaHtDXPLtvsyxct3OazFyQy-jkfr9-9m3YaiC3uUoq8gradwx_FI2pjSbDxIGw_2jZy0KS82nCVs_-UlUJDjqkj7jAGAzeVVCEtjrnxxMc50aLuI57dsCYu-yS0gZSDbSPB2XYvhRp0tzk8vyza5Xl60W0')">
+</div>
+<div class="absolute inset-0 bg-primary/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface-bright">
+<span class="material-symbols-outlined text-headline-sm">photo_camera</span>
+</div>
+</a>
+<!-- Grid Item 4 -->
+<a class="group relative aspect-square overflow-hidden bg-surface-container" href="#">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Emotional candid photograph of a bride smiling with her mother, both dressed in coordinated pastel pink and mint green luxury formal Noor suits." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC5gpFVmCi0BFvdU1aksRoUe3s_Z-OR6buw1UNhFDJ-r-Adx4zxB5UcGk6_4d7Jn5imKBu_UzcltWb1Aub8sqYWSeaSI10x-wBtLuDcqKdQ9I5_w6PSTovCZ_SRso3iagplhkovf0tZLepWsEBnezO2a5UtwaLCz96vZe8vqS4S62fHk80LYLfYvGTbGXYTEBnNRtCvFq77VNxVLxgXEqIjcnvVW4GQtEls64BeInQu')">
+</div>
+<div class="absolute inset-0 bg-primary/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface-bright">
+<span class="material-symbols-outlined text-headline-sm">photo_camera</span>
+</div>
+</a>
+<!-- Grid Item 5 -->
+<a class="group relative aspect-square overflow-hidden bg-surface-container" href="#">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Artistic composition of brass bridal trousseau trunk, pure silk swatches, bespoke tailor tape measure, and antique gold scissors on an atelier workbench." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA7LkIDdj3XoF4qv5hcKDNfyHa5MNsGB2Yh82HHHoD8DdBxa35E_SuZIxyfBSPVasZK5jKMd2fJezEIJdWYNhR_Yh0orK-b6Gkv3IA1R95r63Yn9cBhZ9yVw6pboJCX-oHH9dBsRP9Gtj72BFX_2gVNEjranROkh15J53Q1sc10OfA6xKWn11j9Wm8aOW7YlFHdra1GaWrcW9l2-RI3JH0BFKMKD1v95jKCASvXfTgT')">
+</div>
+<div class="absolute inset-0 bg-primary/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface-bright">
+<span class="material-symbols-outlined text-headline-sm">photo_camera</span>
+</div>
+</a>
+</div>
+</section>
+<!-- 8. VIP Newsletter & Atelier Gazette Invitation Card -->
+<section class="w-full max-w-7xl mx-auto px-margin pb-space-2xl">
+<div class="relative overflow-hidden bg-primary p-space-xl md:p-space-2xl text-center text-surface-bright shadow-2xl">
+<!-- Decorative Subcontinental Jaali Background SVG -->
+<div class="absolute inset-0 opacity-5 pointer-events-none flex items-center justify-center">
+<svg class="w-full h-full" fill="none" preserveaspectratio="none" stroke="currentColor" viewbox="0 0 100 100">
+<pattern height="20" id="jaali-pattern" patternunits="userSpaceOnUse" width="20">
+<path d="M 0 10 L 10 0 L 20 10 L 10 20 Z" fill="none" stroke="currentColor" stroke-width="0.5"></path>
+<circle cx="10" cy="10" fill="none" r="3" stroke="currentColor" stroke-width="0.5"></circle>
+</pattern>
+<rect fill="url(#jaali-pattern)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<div class="relative z-10 max-w-2xl mx-auto space-y-space-md">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs bg-secondary-fixed/20 text-secondary-fixed text-label-caps uppercase tracking-widest font-label-caps">
+<span class="material-symbols-outlined text-body-sm">stars</span>
+<span>Private Salon Privileges</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-surface-bright tracking-tight">
+          Enter The Noor Gazette
+        </h2>
+<p class="font-body-md text-body-md text-surface-variant font-light leading-relaxed">
+          Receive confidential runway previews, seasonal trunk show invitations in London, Dubai, and New York, and a complimentary 
+          <span class="text-secondary-fixed font-semibold">Rs. 10,000 credit</span> toward your inaugural bridal appointment.
+        </p>
+<form class="flex flex-col sm:flex-row items-stretch justify-center gap-space-xs max-w-lg mx-auto pt-space-xs" onsubmit="event.preventDefault();">
+<input class="flex-1 bg-surface-bright text-on-surface px-space-md py-space-sm font-body-sm focus:outline-none placeholder:text-outline" placeholder="Enter your private email address" required="" type="email"/>
+<button class="bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary-container transition-colors px-space-lg py-space-sm font-label-caps text-label-caps uppercase tracking-widest font-semibold shadow-md whitespace-nowrap" type="submit">
+            Claim Invitation
+          </button>
+</form>
+<div class="flex items-center justify-center gap-space-md text-surface-variant/70 font-label-meta text-label-meta pt-space-xs">
+<span>Discreet Communications Only</span>
+<span>•</span>
+<span>Complimentary Swatch Booklet</span>
+</div>
+</div>
+</div>
+</section>
+</div></main><aside class="fixed bottom-space-lg right-space-lg z-50 flex items-center"><a class="group flex items-center gap-space-sm bg-primary text-on-primary px-space-md py-space-sm rounded-full shadow-[0_4px_20px_rgba(0,53,38,0.25)] hover:bg-primary-container transition-all" data-path="bespoke-consultation" href="consultation.html"><span class="relative flex h-2.5 w-2.5"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary-fixed opacity-75"></span><span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-secondary-fixed"></span></span><span class="material-symbols-outlined text-secondary-fixed text-title-editorial">forum</span><span class="font-label-caps text-label-caps uppercase tracking-wider text-on-primary">Chat with Stylist</span><span class="material-symbols-outlined text-secondary-fixed text-body-sm">verified</span></a></aside><footer class="w-full bg-surface-container-low mt-space-2xl pt-space-xl pb-space-lg"><div class="max-w-7xl mx-auto px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-lg pb-space-xl"><div class="space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="Noor Brand Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAztZvUx2iz_mkgSiw3gqpzWN9ANbiJ1swiUc6sU9Jt4ITE0j0m7lPZ4H4a1iScuYcYfCdCbgG3wOt8K4u3S5TeQglPZo_7IoSunZelpBhheiN6wddZK43w7Uj631Kg2jNxGMD2fUdThWscYJCMzHB3MT4MNYZTAmqnv6_nw1HNHO8_-BIpHDEyreTIdO7gBctohZPlJzICLxpDlCNj-AtEB96IzWoGTuO23EAaZgblOw"/><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-primary">Noor</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">The digital flagship of bespoke Pakistani couture. Preserving centuries of zardozi, tilla, and raw silk traditions for the global bride.</p><div class="pt-space-xs font-label-meta text-label-meta text-on-surface-variant"><p class="font-semibold text-on-surface">Lahore Flagship Atelier</p><p>9-C, Main Boulevard, Gulberg III, Lahore, Pakistan</p><p class="mt-space-xs text-secondary font-medium">salon@noorcouture.com</p></div></div><div class="space-y-space-sm"><h3 class="font-label-caps text-label-caps tracking-widest text-primary uppercase">Curated Collections</h3><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors"><a data-path="bridal-couture" href="collection.html">Bridal Trousseau '25</a></li><li class="hover:text-primary transition-colors"><a data-path="formal-wear" href="collection.html">Handcrafted Velvet Formals</a></li><li class="hover:text-primary transition-colors"><a data-path="luxury-pret" href="collection.html">Silk Pret &amp; Kaftans</a></li><li class="hover:text-primary transition-colors"><a data-path="curated-collections" href="collection.html">The Zardozi Heritage Archive</a></li><li class="hover:text-primary transition-colors"><a data-path="new-arrivals" href="collection.html">Shehr-e-Zaat Unstitched</a></li></ul></div><div class="space-y-space-sm"><h3 class="font-label-caps text-label-caps tracking-widest text-primary uppercase">Client Care &amp; Concierge</h3><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors"><a data-path="bespoke-consultation" href="consultation.html">Custom Measurement Guide</a></li><li class="hover:text-primary transition-colors"><a data-path="bespoke-consultation" href="consultation.html">Worldwide Air Courier (DHL Express)</a></li><li class="hover:text-primary transition-colors"><a data-path="atelier-heritage" href="#">Bridal Delivery Timelines (8-12 Weeks)</a></li><li class="hover:text-primary transition-colors"><a data-path="atelier-heritage" href="#">Bank Wire &amp; Direct Transfer Protocol</a></li><li class="hover:text-primary transition-colors"><a data-path="atelier-heritage" href="#">Preservation &amp; Heirloom Storage</a></li></ul></div><div class="space-y-space-md"><h3 class="font-label-caps text-label-caps tracking-widest text-primary uppercase">The Noor Gazette</h3><p class="font-body-sm text-body-sm text-on-surface-variant">Subscribe to receive private invitations to runway previews and a Rs. 10,000 welcome voucher for your bridal consultation.</p><div class="flex flex-col gap-space-xs"><div class="flex items-center bg-surface px-space-sm py-space-xs"><input class="w-full bg-transparent font-body-sm text-body-sm text-on-surface focus:outline-none placeholder:text-outline-variant" placeholder="Your email address" type="email"/><button class="font-label-caps text-label-caps uppercase text-primary hover:text-secondary transition-colors font-semibold">Join</button></div><span class="font-label-meta text-label-meta text-outline">Discreet invitations only. Unsubscribe at any time.</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant"><div class="flex flex-wrap items-center gap-space-md font-label-meta text-label-meta uppercase tracking-wider"><span>© 2025 Noor Haute Couture Ltd. All Rights Reserved.</span><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a><a class="hover:text-primary transition-colors" href="#">Terms of Bespoke Orders</a></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs text-on-surface-variant font-label-caps text-label-caps uppercase tracking-wider"><span class="px-space-xs py-0.5 bg-surface text-on-surface-variant font-medium">Visa</span><span class="px-space-xs py-0.5 bg-surface text-on-surface-variant font-medium">Mastercard</span><span class="px-space-xs py-0.5 bg-surface text-on-surface-variant font-medium">Alfalah</span><span class="px-space-xs py-0.5 bg-surface text-on-surface-variant font-medium">PayPak</span><span class="px-space-xs py-0.5 bg-surface text-on-surface-variant font-medium">COD (Pakistan)</span></div><div class="flex items-center gap-space-sm text-on-surface-variant"><a aria-label="Instagram" class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-body-lg">photo_camera</span></a><a aria-label="Location" class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-body-lg">storefront</span></a></div></div></div></div></footer>
+<!-- Noor Quick Screen Switcher -->
+<nav id="noor-demo-nav" style="position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); z-index: 99999; display: flex; align-items: center; gap: 6px; padding: 6px 10px; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-radius: 9999px; box-shadow: 0 10px 30px rgba(0,0,0,0.15), 0 2px 6px rgba(0,0,0,0.08); border: 1px solid rgba(121, 89, 2, 0.25); font-family: 'Plus Jakarta Sans', system-ui, sans-serif;">
+  <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #795902; padding: 0 8px; display: flex; align-items: center; gap: 5px;">
+    <span style="width: 7px; height: 7px; border-radius: 50%; background: #003526; display: inline-block;"></span>
+    Noor
+  </span>
+  <div style="display: flex; gap: 4px; align-items: center;">
+      <a href="index.html" class="px-3 py-1 rounded-full bg-primary text-white font-semibold shadow-sm transition-all text-[12px]">Home</a>
+      <a href="collection.html" class="px-3 py-1 rounded-full text-stone-700 hover:text-stone-900 hover:bg-stone-200/70 transition-all text-[12px]">Festive Collection</a>
+      <a href="product.html" class="px-3 py-1 rounded-full text-stone-700 hover:text-stone-900 hover:bg-stone-200/70 transition-all text-[12px]">Shehnai Peshwas (Detail)</a>
+      <a href="consultation.html" class="px-3 py-1 rounded-full text-stone-700 hover:text-stone-900 hover:bg-stone-200/70 transition-all text-[12px]">Bespoke Consultation</a>
+  </div>
+</nav>
+
+</body></html>
